@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>storagetest</title>
+</head>
+<body>
+    <!-- Login Box -->
+    <div id="loginBox">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+
+    <!-- File Upload Box -->
+    <div id="uploadBox" style="display:none;">
+        <input type="file" id="fileInput" accept=".json">
+        <button onclick="uploadFile()">Upload JSON File</button>
+    </div>
+
+    <!-- Output Folder Link -->
+    <div id="outputBox" style="display:none;">
+        <p>Output Folder Link: <a id="outputLink" href="#" target="_blank"></a></p>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
